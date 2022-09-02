@@ -1,0 +1,123 @@
+Body { 
+    margin: 0;
+    padding: 0;
+    background: #7ec9c9;
+}
+.header {
+    margin-top: 5%; 
+    width: 24%;
+    height: 300px;
+    background: #218380;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.header .img{
+    margin-left: 36%;
+    display: inline-block;
+}
+.header .img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%
+}
+.header .content {
+    width: 90%;
+    height: 30%;
+    position: absolute;
+    top: 7%;
+    left: 35%;
+}
+.header .content .p-1 {
+    color: #191D32;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 65px;
+    margin-bottom: 0;
+}
+.header .content .p-2 {
+    color: #191D32;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;   
+}
+.info {
+    width: 90%;
+    height: auto;
+    background: #218380;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.info .tituloSeccion {
+    color: #191D32;
+    font-family: 'Nunito';
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #7ec9c9 dashed;
+    margin-top: 0;
+}
+.info .tituloInfo {
+    color: #191D32;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    font-size: x-large;
+    display: inline;
+    margin-right: 10px;
+}
+.info .infoInfo {
+    color: #131830;
+    font-family: 'Nunito';
+    font-weight: normal;
+    font-size: x-large;
+    display: inline;
+}
+.box1 {
+    width: 50%;
+    height: auto;
+    padding: 0;
+    color: rgba(4, 4, 46, 0.486);
+    position: 
+}
+.infoGeneral {
+    width: auto;
+    height: auto;
+    background: #4dfff9;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    align-items: center;
+}
+.infoGeneral .tituloSeccion {
+    color: #191D32;
+    font-family: 'Nunito';
+    font-size: x-large;
+    text-align: left;
+    font-weight: bolder;
+    border-bottom: 2px #7ec9c9 dashed;
+    margin-top: 0;
+}
+.infoGeneral .tituloInfo {
+    color: #191D32;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 10px;
+}
+.infoGeneral .infoInfo {
+    color: #131830;
+    font-family: 'Nunito';
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    list-style-position: inside;
+}
+    
+footer{
+    background-color: #218380;
+    text-align: center;
+}
